@@ -196,6 +196,7 @@ header a {
 .middle-section {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 0;
 }
 .middle-section .mini-block {
   display: flex;
@@ -212,6 +213,23 @@ header a {
   border-bottom: 1px dashed #2C353A;
 }
 .middle-section .mini-block li {
-  border-top: 1px solid #F1F2EE;
+  border-top: 2px solid #F1F2EE;
+  padding: 2%;
+}
+.final-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.final-section h2 {
+  font-family: 'Baloo Bhai', cursive;
+  padding-bottom: 2%;
+}
+.final-section table {
+  border-top: 2px solid #F1F2EE;
+  padding: 2%;
+}
+.final-section tr {
+  border-top: 2px solid #F1F2EE;
   padding: 2%;
 }

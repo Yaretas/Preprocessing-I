@@ -130,6 +130,7 @@ header{
 .middle-section{
 	.display;
 	justify-content: space-between;
+	padding: 2rem 0;
 
 	.mini-block{
 		.display;
@@ -149,9 +150,30 @@ header{
 			border-bottom: 1px dashed @grey;
 		}
 		li{
-			border-top: 1px solid @bck-grey;
+			border-top: 2px solid @bck-grey;
 			padding: 2%;
 		}
+	}
+}
+
+.final-section{
+	.display;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+	h2{
+		font-family: @Header-font;
+		padding-bottom: 2%;
+	}
+
+	table{
+		border-top: 2px solid @bck-grey;
+		padding: 2%;
+	}
+
+	tr{
+		border-top: 2px solid @bck-grey;
+		padding: 2%;
 	}
 }
 
