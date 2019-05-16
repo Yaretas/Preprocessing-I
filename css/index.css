@@ -193,3 +193,25 @@ header a {
   font-size: 0.8rem;
   border-radius: 10px;
 }
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+.middle-section .mini-block {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 1rem 0;
+}
+.middle-section .mini-block h2 {
+  font-family: 'Baloo Bhai', cursive;
+  padding-bottom: 2%;
+}
+.middle-section .mini-block .list {
+  border-top: 1px dashed #2C353A;
+  border-bottom: 1px dashed #2C353A;
+}
+.middle-section .mini-block li {
+  border-top: 1px solid #F1F2EE;
+  padding: 2%;
+}
