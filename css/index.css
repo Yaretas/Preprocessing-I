@@ -1,1 +1,235 @@
-/* Compile your LESS file! */
+@font-face {
+  font-family: 'Baloo Bhai';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Bhai Regular'), local('BalooBhai-Regular'), url(https://fonts.gstatic.com/s/baloobhai/v4/ZgNWjP5GM7bCUdmXgWyVvGLONw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  font-size: 1.6rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+header a {
+  text-decoration: none;
+  color: #2C353A;
+  padding: 20px;
+}
+.upper-section {
+  width: 100%;
+  height: auto;
+  padding: 2.4rem;
+  margin: 0 auto;
+  background-color: #F1F2EE;
+}
+.upper-section img {
+  padding: 15% 0;
+}
+.upper-section h1 {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2rem;
+}
+.upper-section p {
+  font-size: 0.8rem;
+  padding: 1rem 0;
+}
+.upper-section .block {
+  border-top: 1px solid grey;
+}
+.upper-section .block button {
+  padding: 0.3rem;
+  background-color: #028090;
+  color: #E0FBFC;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.middle-section .mini-block {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 1rem 0;
+}
+.middle-section .mini-block h2 {
+  font-family: 'Baloo Bhai', cursive;
+  padding-bottom: 2%;
+}
+.middle-section .mini-block .list {
+  border-top: 1px dashed #2C353A;
+  border-bottom: 1px dashed #2C353A;
+}
+.middle-section .mini-block li {
+  border-top: 2px solid #F1F2EE;
+  padding: 2%;
+}
+.final-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.final-section h2 {
+  font-family: 'Baloo Bhai', cursive;
+  padding-bottom: 2%;
+}
+.final-section table {
+  border-top: 2px solid #F1F2EE;
+  padding: 2%;
+}
+.final-section tr {
+  border-top: 2px solid #F1F2EE;
+  padding: 2%;
+}
